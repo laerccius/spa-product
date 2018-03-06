@@ -65,20 +65,20 @@ namespace api
             services.AddCors(options => { options.AddPolicy("CorsPolicy", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowCredentials().AllowAnyHeader()); });
             // Add framework services.
             services.AddMvc(options =>
-      {
-          options.SslPort = 5050;
-          options.Filters.Add(new RequireHttpsAttribute());
-      });
+                {
+                    options.SslPort = 5050;
+                    options.Filters.Add(new RequireHttpsAttribute());
+                });
             ConfigureAuth(services);
             services.AddAntiforgery(
-       options =>
-       {
-           options.Cookie.Name = "_af";
-           options.Cookie.HttpOnly = true;
-           options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
-           options.HeaderName = "X-XSRF-TOKEN";
-       }
-   );
+            options =>
+            {
+                options.Cookie.Name = "_af";
+                options.Cookie.HttpOnly = true;
+                options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+                options.HeaderName = "X-XSRF-TOKEN";
+            });
+
             services.AddTransient<Context>();
         }
 

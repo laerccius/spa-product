@@ -10,15 +10,15 @@ namespace api.MongoDB
     public class Context
     {
         private IConfiguration _configuration;
-
+        private const string CONNECTION_MONGO_DB = "mongodb://localhost:27017";
         public Context(IConfiguration config)
         {
-            _configuration = config;
+            _configuration = config;            
         }
 
         public List<ProductModel> ListProducts()
         {
-            MongoClient client = new MongoClient("mongodb://localhost:27017");
+            MongoClient client = new MongoClient(CONNECTION_MONGO_DB);
             client.GetDatabase("DBProducts");
             IMongoDatabase db = client.GetDatabase("DBProducts");
 
@@ -31,6 +31,7 @@ namespace api.MongoDB
                 products = db.GetCollection<ProductModel>("products")
                 .Find(_ => true).ToList();
             }
+            
             return products;
         }
 

@@ -7,7 +7,7 @@ using api.MongoDB;
 namespace api.Controllers
 {
     [Route("api/[controller]")]
-    // [Authorize]
+     [Authorize]
     public class ProductsController : Controller
     {
         private Context _context;
@@ -20,7 +20,7 @@ namespace api.Controllers
 
         // GET api/values
         [HttpGet]
-        // [Authorize]
+        [Authorize]
         public IEnumerable<ProductModel> Get()
         {
             return this._context.ListProducts();

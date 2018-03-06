@@ -15,8 +15,8 @@ namespace api
                 .AddCommandLine(args)
                 .AddEnvironmentVariables("ASPNETCORE_")
                 .SetBasePath(Directory.GetCurrentDirectory())
-            .AddJsonFile("certificate.json", optional: true, reloadOnChange: true)
-            .AddJsonFile($"certificate.{Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")}.json", optional: true, reloadOnChange: true)
+                .AddJsonFile("certificate.json", optional: true, reloadOnChange: true)
+                .AddJsonFile($"certificate.{Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")}.json", optional: true, reloadOnChange: true)
                 .Build();
 
 
