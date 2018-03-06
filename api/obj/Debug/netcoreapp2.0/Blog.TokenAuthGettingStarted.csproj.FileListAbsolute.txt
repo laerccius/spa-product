@@ -1,0 +1,10 @@
+/home/laerccius/github/TokenAuthBlog/api/api/bin/Debug/netcoreapp2.0/api.deps.json
+/home/laerccius/github/TokenAuthBlog/api/api/bin/Debug/netcoreapp2.0/api.runtimeconfig.json
+/home/laerccius/github/TokenAuthBlog/api/api/bin/Debug/netcoreapp2.0/api.runtimeconfig.dev.json
+/home/laerccius/github/TokenAuthBlog/api/api/bin/Debug/netcoreapp2.0/api.dll
+/home/laerccius/github/TokenAuthBlog/api/api/bin/Debug/netcoreapp2.0/api.pdb
+/home/laerccius/github/TokenAuthBlog/api/api/obj/Debug/netcoreapp2.0/api.csproj.CoreCompileInputs.cache
+/home/laerccius/github/TokenAuthBlog/api/api/obj/Debug/netcoreapp2.0/api.AssemblyInfoInputs.cache
+/home/laerccius/github/TokenAuthBlog/api/api/obj/Debug/netcoreapp2.0/api.AssemblyInfo.cs
+/home/laerccius/github/TokenAuthBlog/api/api/obj/Debug/netcoreapp2.0/api.dll
+/home/laerccius/github/TokenAuthBlog/api/api/obj/Debug/netcoreapp2.0/api.pdb

@@ -1,0 +1,10 @@
+C:\Projects\LTM\api\obj\Debug\netcoreapp2.0\api.csproj.CoreCompileInputs.cache
+C:\Projects\LTM\api\obj\Debug\netcoreapp2.0\api.AssemblyInfoInputs.cache
+C:\Projects\LTM\api\obj\Debug\netcoreapp2.0\api.AssemblyInfo.cs
+C:\Projects\LTM\api\bin\Debug\netcoreapp2.0\api.deps.json
+C:\Projects\LTM\api\bin\Debug\netcoreapp2.0\api.runtimeconfig.json
+C:\Projects\LTM\api\bin\Debug\netcoreapp2.0\api.runtimeconfig.dev.json
+C:\Projects\LTM\api\bin\Debug\netcoreapp2.0\api.dll
+C:\Projects\LTM\api\bin\Debug\netcoreapp2.0\api.pdb
+C:\Projects\LTM\api\obj\Debug\netcoreapp2.0\api.dll
+C:\Projects\LTM\api\obj\Debug\netcoreapp2.0\api.pdb
