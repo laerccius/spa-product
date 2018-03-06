@@ -1,0 +1,6 @@
+<a (click)="authService.logout()" *ngIf="authService.authenticated">Log Out</a>
+<a *ngIf="!authService.authenticated" (click)="authService.login()">Log In</a>
+
+
+
+<router-outlet></router-outlet>

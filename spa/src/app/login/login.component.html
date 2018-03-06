@@ -1,0 +1,23 @@
+<h2>Login</h2>
+<div>
+  <div>
+    <label>Usuário:
+      
+    </label>
+</div>
+<div>
+  <input [(ngModel)]="login.username" value="TEST">
+</div>
+</div>
+<div>
+<div>
+    <label>Senha:
+     
+    </label>
+</div>
+<div> <input [(ngModel)]="login.password" value="TEST123" type="password"></div>
+</div>
+<div>
+  <input type="button" (click)="Authenticate()" value="Login" />
+</div>
+
